@@ -81,6 +81,7 @@ p {
 
 section {
 	position: relative;
+    margin-top: 70px; 
 }
 .page-loader {
 	position: fixed;
