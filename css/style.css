@@ -81,7 +81,7 @@ p {
 
 section {
 	position: relative;
-/*    margin-top: 50px; */
+    margin-top: 40px; 
 }
 .page-loader {
 	position: fixed;
@@ -1142,3 +1142,25 @@ p.subtitle {
 	transform: rotate(-45deg);
 }
 /* ===== End buttons ===== */
+
+/* Additional CSS  */
+/* GeoJSON */
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.geoLi{
+    padding-top: 3.8%;
+    text-align: center;
+    margin: 0 20px 10px 25px;
+    height: 60px;
+    background-color: #B77600;
+    color: #fff;
+}
+.geoLi:hover{
+    background-color: #444;
+}
+.white-text{
+    color: #fff;
+}
