@@ -1164,3 +1164,6 @@ p.subtitle {
 .white-text{
     color: #fff;
 }
+.white-text:hover{
+    color: #fff;
+}
