@@ -111,49 +111,59 @@
         <!-- End page header-->
 
         <!-- Begin roatet box-2 -->
-                <div class="row">
-                    <div  class="col-md-8" >
-                        <div id="map" style="height: 500px; margin-left: 1%"></div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <button type="button" id="airports" class="btn-block">World Airports</button>
-                                <div id="info"></div>
-                            </div>
-                            <div class="col-md-4">
-                                <button type="button" id="geofeatures" class="btn-block">Geographical Features</button>
-                                <div id="info1"></div>
-                            </div>
-                            <div class="col-md-4">
-                                <button type="button" id="elevationpoints" class="btn-block">Elevation Points</button>
-                                <div id="info2"></div>
-                            </div>
-
+        <div class="row">
+            <div style="margin-left: 10%">
+                <div  class="col-md-7" >
+                    <div id="map" style="height: 400px; margin-left: 1%"></div>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button type="button" id="airports" class="btn-block">World Airports</button>
+                            <div id="info"></div>
                         </div>
-                        <br>
-                        <br>
-
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <button type="button" id="populatedcities" class="btn-block">Populated Cities</button>
-                                <div id="info3"></div>
-                            </div>
-                            <div class="col-md-4">
-                                <button type="button" id="tinycountires" class="btn-block">World Tiny Countries</button>
-                                <div id="info4"></div>
-                            </div>
-                            <div class="col-md-4">
-                                <button type="button" id="*" class="btn-block">Elevation Points</button>
-                                <div id="info5"></div>
-                            </div>
-
+                        <div class="col-md-3">
+                            <button type="button" id="geofeatures" class="btn-block">Geographical Features</button>
+                            <div id="info1"></div>
                         </div>
                     </div>
-                </div> <!-- /.row -->
+                    <br>
+                    <br>
+
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button type="button" id="elevationpoints" class="btn-block">Elevation Points</button>
+                            <div id="info2"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <button type="button" id="*" class="btn-block">Elevation Points</button>
+                            <div id="info5"></div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <br>
+
+                </div>
+
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button type="button" id="populatedcities" class="btn-block">Populated Cities</button>
+                            <div id="info3"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <button type="button" id="tinycountires" class="btn-block">World Tiny Countries</button>
+                            <div id="info4"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
         <!-- /.container -->
         <style>
             .btn-block{
@@ -268,10 +278,10 @@
 
 
                             content: "<b>Name:</b> " + name + "<br>" +
-                                     "<b>Class:</b> " + type + "<br>" +
-                                     "<b>region:</b> "+ region +"<br>"+
-                                     "<b>type: </b>"+ specialAttr + "<br>" +
-                                     "<b><a target='_blank' href=" + wiki + ">Wikipedia</a></b>"
+                                "<b>Class:</b> " + type + "<br>" +
+                                "<b>region:</b> "+ region +"<br>"+
+                                "<b>type: </b>"+ specialAttr + "<br>" +
+                                "<b><a target='_blank' href=" + wiki + ">Wikipedia</a></b>"
                         });
                         marker.addListener('click', function () {
                             // We use the lat and lon as the parameters in the API call to weather service
@@ -324,7 +334,7 @@
         var specialAtrr = null;
 
         envokeJson('#airports',"https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_10m_airports.geojson",name
-                    ,type, wiki, region, specialAtrr);
+            ,type, wiki, region, specialAtrr);
 
         envokeJson('#geofeatures',"https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_50m_geography_regions_points.geojson",name
             ,type, wiki, region, specialAtrr);
