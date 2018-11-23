@@ -1152,9 +1152,9 @@ p.subtitle {
 }
 
 div div div ul li.geoLi{
-    padding-top: 18px;
+    padding-top: 12px;
     text-align: center;
-    height: 50px;
+    height: 30px;
     background-color: #333; /*#B77600;*/
     color: #fff;
 }
