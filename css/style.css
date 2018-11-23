@@ -1151,20 +1151,20 @@ p.subtitle {
   list-style: none;
 }
 
-.geoLi{
+div div div ul li.geoLi{
     padding-top: 3.8%;
     text-align: center;
     margin: 0 20px 10px 25px;
     height: 60px;
-    background-color: #B77600;
+    background-color: #333; /*#B77600;*/
     color: #fff;
 }
-.geoLi:hover{
-    background-color: #444;
+div div div ul li.geoLi:hover{
+    background-color: #555;
 }
-.white-text{
+.tutorials-a{
     color: #fff;
 }
-.white-text:hover{
+.tutorials-a:hover{
     color: #fff;
-}
+}33
