@@ -136,21 +136,7 @@
     <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
 
 </div><!-- body ends -->
-<script>
-    var map;
 
-    function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 2,
-            center: new google.maps.LatLng(2.8, -187.3),
-            mapTypeId: 'terrain'
-        });
-    }
-    var thelocation;
-    var titleName;
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmvWSeWu-g_uQ7TpQBZFspA0KaTnMmdCg&callback=initMap">
-</script>
 <!-- Plugins JS -->
 <script src="inc/jquery/jquery-1.11.1.min.js"></script>
 <script src="inc/bootstrap/js/bootstrap.min.js"></script>
@@ -169,6 +155,8 @@
 
 <!--Earthquake JS-->
 <script src="js/earthquake.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmvWSeWu-g_uQ7TpQBZFspA0KaTnMmdCg&callback=initMap">
+</script>
 
 </body>
 </html>
