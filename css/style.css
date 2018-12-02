@@ -11,17 +11,20 @@ Master Stylesheet
 ---------------------------------------------------------------------------------*/
 
 html {
-	height: 100% !important;
+	height: 100vh !important;
 }
 body {
-	position: relative;
-	height: 100%;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
 	font-size: 14px;
 	color: #363940;
 }
 body .body {
 	height: 100%;
 }
+
+.body{}
 .cover {
 	position: absolute;
 	width: 100%;
@@ -34,7 +37,6 @@ body .body {
 .page {
   overflow: hidden;
   background-color: #fff;
-  padding: 50px 0;
 }
 * {
 	border-radius: 0 !important;
@@ -81,7 +83,6 @@ p {
 
 section {
 	position: relative;
-    margin-top: 40px; 
 }
 .page-loader {
 	position: fixed;
@@ -876,6 +877,11 @@ ul.contact-address li i {
 
 
 /* ===== Begin footer ===== */
+footer{
+	width: 100vw;
+	position: fixed;
+	bottom: 0;
+}
 .footer-top {
 	padding: 60px 0 35px;
 }
@@ -945,8 +951,11 @@ ul.imp-links li a {
 
 
 /* ===== Begin page header ===== */
+.page-header-wrapper{
+	margin-top: 10px;
+}
 .page-header {
-	margin: 0 0 60px 0;
+	margin: 0;
 	padding: 0;
 	border: none;
 }
@@ -1166,4 +1175,71 @@ div div div ul li.geoLi:hover{
 }
 .tutorials-a:hover{
     color: #fff;
+}
+/*Earthquake Page*/
+#container .feed-heading {
+	height: 60px;
+	padding: 1em 0 0 1em;
+	margin: 0;
+}
+
+
+#feedColumn {
+	width: 30%;
+	float: left;
+}
+
+#feedSelector {
+	top: 1em;
+	left: 1em;
+	background-color: #fff;
+}
+
+.child-prop,
+.feed-name,
+.feed-date {
+	text-transform: capitalize;
+}
+
+.feed-date {
+	width: 50%;
+	border-bottom: 1px solid #999;
+	margin: 0 0 10px;
+	padding-bottom: 0.2em;
+	font-weight: bold;
+}
+
+.feed-name {
+	padding: 0.5em;
+	margin: 0 0.5em 0 0;
+	background-color: #777;
+	color: #fff;
+	cursor: pointer;
+	transition: all linear 0.2s;
+	border: none;
+	outline: none;
+	font-size: 1em;
+}
+
+.feed-name:hover {
+	background-color: #555;
+}
+
+.child-prop {
+	display: inline-block;
+	margin: 0 0 0.5em 0;
+}
+
+#container{
+	height: 100%;
+}
+
+#earthquake-content{
+	position: relative;
+	top:68px;
+}
+
+#map{
+	height: 70vh;
+	margin-left:1%;
 }
