@@ -57,7 +57,7 @@
     	<div class="body">
         
             <!--========== BEGIN HEADER ==========-->
-            <header id="header" class="header-main">
+            <header id="header" class="header-main" >
 
                 <!-- Begin Navbar -->
                 <nav id="main-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation"> <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
@@ -94,7 +94,7 @@
             <!-- ========= END HEADER =========-->
                               
             <!-- Begin GeoJSON -->
-            <section id="services-section" class="page text-center">
+            <section id="services-section" class="page text-center" style="padding-bottom: 40px;">
                 <!-- Begin page header-->
                 <div class="page-header-wrapper">
                     <div class="container">
@@ -108,12 +108,12 @@
                 <!-- End page header-->
             
                 <!-- Begin roatet box-2 -->
-                <div class="rotate-box-2-wrapper">
+                <div class="rotate-box-2-wrapper" style="margin-top: -30px;">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-3 col-sm-6">
                                 <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0">
-                                    <span class="rotate-box-icon"><i class="fa fa-mobile"></i></span>
+                                    <span class="rotate-box-icon"><i class="fa fa-road"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Origins</h4>
                                         <p>GeoJSON is based on JSON, the JavaScript Object Notation. As a subset of the JSON format, it can be parsed in modern software and several open source tools can be used to convert other geospatial data formats to GeoJSON. </p>
@@ -133,7 +133,7 @@
                             
                             <div class="col-md-3 col-sm-6">
                                 <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
-                                    <span class="rotate-box-icon"><i class="fa fa-pie-chart"></i></span>
+                                    <span class="rotate-box-icon"><i class="fa fa-leanpub"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Features</h4>
                                         <p>The format is concerned with geographic data in the broadest sense; Anything with qualities that are bounded in geographical space might be a Feature whether or not it is a physical structure</p>             
@@ -143,7 +143,7 @@
             
                             <div class="col-md-3 col-sm-6">
                                 <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
-                                    <span class="rotate-box-icon"><i class="fa fa-cloud"></i></span>
+                                    <span class="rotate-box-icon"><i class="fa fa-connectdevelop"></i></span>
                                     <div class="rotate-box-info">
                                         <h4>Supported Types</h4>
                                         <p><b>Points</b> (therefore addresses and locations), <b>line strings</b> (therefore streets, highways and boundaries), <b>polygons</b> (countries, provinces, tracts of land), and multi-part collections of these types</p>
@@ -154,10 +154,8 @@
                     </div> <!-- /.container -->                      
                 </div>
                              <!-- End rotate box-1 -->
-                
-                <div class="extra-space-l"></div>
-                
                 <!-- Begin page header--> 
+<!--
                 <div class="page-header-wrapper">
                     <div class="container">
                         <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
@@ -165,33 +163,34 @@
                         </div>
                     </div>
                 </div>
+-->
                 <!-- End page header-->
                 
                 <!-- Begin Tutorials -->
                 <div class="our-skills">
                 	<div class="container">
                     	<div class="row">                 
-                        	<div class="col-sm-6">
+                        	<div class="col-sm-3">
                                 <ul class="list-unstyled">
-                                   <li class="geoLi"><a href="#" class="white-text">Tutorial 1</a></li>
+                                   <li class="geoLi"><a href="#" class="tutorials-a">Tutorial 1</a></li>
                                 </ul>
                             </div>
                             
-                            <div class="col-sm-6">
+                            <div class="col-sm-3">
                                 <ul class="list-unstyled">
-                                   <li class="geoLi"><a href="#" class="white-text">Tutorial 2</a></li>
+                                   <li class="geoLi"><a href="#" class="tutorials-a">Tutorial 2</a></li>
                                 </ul>
                             </div>
                             
-                            <div class="col-sm-6">
+                            <div class="col-sm-3">
                                 <ul class="list-unstyled">
-                                   <li class="geoLi"><a href="#" class="white-text">Tutorial 3</a></li>
+                                   <li class="geoLi"><a href="#" class="tutorials-a">Tutorial 3</a></li>
                                 </ul>
                             </div>
                             
-                            <div class="col-sm-6">
+                            <div class="col-sm-3">
                                 <ul class="list-unstyled">
-                                   <li class="geoLi"><a href="#" class="white-text">Tutorial 4</a></li>
+                                   <li class="geoLi"><a href="#" class="tutorials-a">Tutorial 4</a></li>
                                 </ul>
                             </div>                       
                         </div> <!-- /.row -->
@@ -204,7 +203,7 @@
       
             <!-- Begin footer -->
             <footer class="text-off-white">
-                <div class="footer">
+                <div class="footer" style="padding: 12px;">
                     <div class="container text-center wow fadeIn" data-wow-delay="0.4s">
                         <p class="copyright">Copyright &copy; 2018 - Developed by Group 4</p>
                     </div>
@@ -216,9 +215,7 @@
             <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
                                               
         </div><!-- body ends -->
-        
-        
-        
+
         
         <!-- Plugins JS -->
 		<script src="inc/jquery/jquery-1.11.1.min.js"></script>
@@ -232,11 +229,7 @@
 		<script src="inc/jquery.easing.min.js"></script>
 		<script src="inc/jquery.counterup.min.js"></script>
 		<script src="inc/smoothscroll.js"></script>
-
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>
-
-    </body> 
-        
-            
+    </body>            
 </html>
