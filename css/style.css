@@ -267,6 +267,10 @@ section {
 .navbar-transparent .navbar-brand, .navbar-transparent .navbar-brand:focus {
 	color: #FFF;
 }
+
+ .active{
+	color: #FFF;
+}
 /* ===== End navbar ===== */
 
 
