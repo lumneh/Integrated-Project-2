@@ -1238,7 +1238,7 @@ div div div ul li.geoLi:hover{
 	height: 100%;
 }
 
-#earthquake-content{
+#earthquake-content, #additional-content, .page-content{
 	position: relative;
 	top:68px;
 }
@@ -1246,4 +1246,9 @@ div div div ul li.geoLi:hover{
 #map{
 	height: 70vh;
 	margin-left:1%;
+}
+
+
+#cta-section{
+	top:22vh;
 }
