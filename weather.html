@@ -132,28 +132,45 @@
                 
             <!-- Begin weather section -->
             <div id="weatherInfo">
+                <div style="text-align:center;">
             <table>
                 <!-- Begin weather search by Lat/Long -->
 
             <tr><h2 style="padding-top: 100px;">Search weather</h2></tr>
 
               Latitude: 
-              <input type="number" id="Latitude">
+              <input type="number" id="Latitude" style="width: 120px;" >
               Longtude: 
-              <input type="number" id="Longtude">
+              <input type="number" id="Longtude" style="width: 120px;" >
 
                OR  
 
               Location:
               <input type="text" id="Location" style="width: 100px;"> 
-              <button id="searchButton">Search</button>
-
+              <button id="searchButton"> Search </button>
+                <style>
+                #searchButton {
+                  background-color: #555555; /* Green */
+                  border: none;
+                  color: white;
+                  padding: 8px 20px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 16px;
+                  margin: 4px 2px;
+                  cursor: pointer;
+                } 
+                </style>
             </table>
+                </div>
             <!-- Begin googlemap section -->
 
             <!-- End googlemap section -->
 
             <!-- Begin weather infromation section -->
+                <br>
+                <br>
             <div class="grid-container">
               <div class="grid-container-left">
                 <img id="condIcon" src="">
