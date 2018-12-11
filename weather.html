@@ -1,60 +1,88 @@
 <!doctype html>
 <!--
-	Template:	 Unika - Responsive One Page HTML5 Template
-	Author:		 imransdesign.com
-	URL:		 http://imransdesign.com/
+  Template:  Unika - Responsive One Page HTML5 Template
+  Author:    imransdesign.com
+  URL:     http://imransdesign.com/
     Designed By: https://www.behance.net/poljakova
-	Version:	1.0	
+  Version:  1.0 
 -->
 <html lang="en-US">
-	<head>
+  <head>
 
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Integrated Project 2</title>
-		<meta name="description" content="Unika - Responsive One Page HTML5 Template">
-		<meta name="keywords" content="HTML5, Bootsrtrap, One Page, Responsive, Template, Portfolio" />
-		<meta name="author" content="imransdesign.com">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Integrated Project 2</title>
+    <meta name="description" content="Unika - Responsive One Page HTML5 Template">
+    <meta name="keywords" content="HTML5, Bootsrtrap, One Page, Responsive, Template, Portfolio" />
+    <meta name="author" content="imransdesign.com">
 
-		<!-- Mobile Metas -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Google Fonts  -->
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'> <!-- Body font -->
-		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> <!-- Navbar font -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'> <!-- Body font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> <!-- Navbar font -->
 
-		<!-- Libs and Plugins CSS -->
-		<link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="inc/animations/css/animate.min.css">
-		<link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css"> <!-- Font Icons -->
-		<link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css">
-		<link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css">
+    <!-- Libs and Plugins CSS -->
+    <link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="inc/animations/css/animate.min.css">
+    <link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css"> <!-- Font Icons -->
+    <link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css">
 
-		<!-- Theme CSS -->
+    <!-- Theme CSS -->
         <link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
 
-		<!-- Skin CSS -->
-		<link rel="stylesheet" href="css/skin/cool-gray.css">
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="css/skin/cool-gray.css">
         <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
         <!-- <link rel="stylesheet" href="css/skin/night-purple.css"> -->
 
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <style type="text/css">
+            .grid-container {
+              display: grid;
+              grid-template-columns: 20% 20% 60%;
+            }
 
-	</head>
+/*            .grid-container-left {
+                padding: 5px 20px;
+            }
+
+            .grid-container-right {
+              padding: 5px 20px;
+            }
+
+            .grid-container-map {
+              padding: 5px 20px;
+            }*/
+
+            input {
+                width: 50px;
+            }
+
+
+            #weatherInfo  {
+                padding: 40px;
+            }
+*/
+        </style>
+
+  </head>
 
     <body data-spy="scroll" data-target="#main-navbar">
         <div class="page-loader"></div>  <!-- Display loading image while page loads -->
-    	<div class="body">
+      <div class="body">
         
             <!--========== BEGIN HEADER ==========-->
             <header id="header" class="header-main">
@@ -103,16 +131,51 @@
                 
                 
             <!-- Begin weather section -->
-			
-            
-                
-                <h2>Search weather by Lat/Long</h2>
-            <h2>Search weather by Lat/Long</h2>
-            <h2>Search weather by Lat/Long</h2>
-            <h2>Search weather by Lat/Long</h2>
-            <h2>Search weather by Lat/Long</h2>
+            <div id="weatherInfo">
+            <table>
+                <!-- Begin weather search by Lat/Long -->
 
-          
+            <tr><h2 style="padding-top: 100px;">Search weather</h2></tr>
+
+              Latitude: 
+              <input type="number" id="Latitude">
+              Longtude: 
+              <input type="number" id="Longtude">
+
+               OR  
+
+              Location:
+              <input type="text" id="Location" style="width: 100px;"> 
+              <button id="searchButton">Search</button>
+
+            </table>
+            <!-- Begin googlemap section -->
+
+            <!-- End googlemap section -->
+
+            <!-- Begin weather infromation section -->
+            <div class="grid-container">
+              <div class="grid-container-left">
+                <img id="condIcon" src="">
+
+                <h3>Wind</h3>
+                <img id="windIcon" src="">
+                <h4>Speed: <span id="windSpeed"></span> kph</h4>
+                <h4>Direction: <span id="windDeg"></span>&deg; <span id="windDir"></span></h4>
+              </div>
+              <div class="grid-container-right">
+                <h3><span id="condText">Partly Sunny</span></h3>
+                <h3><span id="tempC"></span>&deg;C | <span id="tempF"></span>&deg;F</h3>
+                <h4>Pressure: <span id="pressure"></span> mbar</h4>
+                <h4>Humidity: <span id="humidity"></span></h4>
+                <h4>Precipitation: <span id="precipitation"></span> mm</h4>
+              </div>
+              <div class="grip-container-map">
+                  <div id="map" style="height: 400px"></div>
+              </div>
+            </div>
+            <!-- End weather infromation section -->
+            </div>  
             <!-- End weather section -->
                 
                 
@@ -138,21 +201,86 @@
         
         
         <!-- Plugins JS -->
-		<script src="inc/jquery/jquery-1.11.1.min.js"></script>
-		<script src="inc/bootstrap/js/bootstrap.min.js"></script>
-		<script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
-		<script src="inc/stellar/js/jquery.stellar.min.js"></script>
-		<script src="inc/animations/js/wow.min.js"></script>
+    <script src="inc/jquery/jquery-1.11.1.min.js"></script>
+    <script src="inc/bootstrap/js/bootstrap.min.js"></script>
+    <script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="inc/stellar/js/jquery.stellar.min.js"></script>
+    <script src="inc/animations/js/wow.min.js"></script>
         <script src="inc/waypoints.min.js"></script>
-		<script src="inc/isotope.pkgd.min.js"></script>
-		<script src="inc/classie.js"></script>
-		<script src="inc/jquery.easing.min.js"></script>
-		<script src="inc/jquery.counterup.min.js"></script>
-		<script src="inc/smoothscroll.js"></script>
+    <script src="inc/isotope.pkgd.min.js"></script>
+    <script src="inc/classie.js"></script>
+    <script src="inc/jquery.easing.min.js"></script>
+    <script src="inc/jquery.counterup.min.js"></script>
+    <script src="inc/smoothscroll.js"></script>
 
-		<!-- Theme JS -->
-		<script src="js/theme.js"></script>
+    <!-- Theme JS -->
+    <script src="js/theme.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmvWSeWu-g_uQ7TpQBZFspA0KaTnMmdCg&callback=initMap"> </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#searchButton').click(function() {
+                let long = $('#Longtude').val(); 
+                let lat = $('#Latitude').val();
+                let location = $('#Location').val();
 
+                let url;
+                if (location === '') 
+                {
+                    url = `http://api.apixu.com/v1/current.json?key=e99d30a731ed4ff798f115637181112&q=${long},${lat}`;
+                }
+                else 
+                {
+                    url = `http://api.apixu.com/v1/current.json?key=e99d30a731ed4ff798f115637181112&q=${location}`;
+                }
+
+                let myLatLng;
+
+                $.ajax(url)
+                    .done(function(x){
+                        $('#condIcon').attr('src', 'http:' + x.current.condition.icon);
+                        $('#condText').text(x.current.condition.text);
+                        $('#tempC').text(x.current.temp_c);
+                        $('#tempF').text(x.current.temp_f);
+                        $('#windSpeed').text(x.current.wind_kph);
+                        $('#windDir').text(x.current.wind_dir);
+                        $('#windDeg').text(x.current.wind_degree);
+                        $('#precipitation').text(x.current.precip_mm);
+                        $('#pressure').text(x.current.pressure_mb);
+                        $('#humidity').text(x.current.humidity);
+
+                        console.log(x.location.lat, x.location.lon);
+                        myLatLng = new google.maps.LatLng(x.location.lat, x.location.lon);
+                        // myLatLng =
+                        // {
+                        //     lat: x.location.lat, 
+                        //     lng: x.location.lon
+                        // };
+                        var marker = new google.maps.Marker({
+                          position: myLatLng,
+                          map: map,
+                          title: ''
+                        });
+
+                        map.setCenter(myLatLng);
+                        map.setZoom(5);
+                    });
+
+                
+
+                
+            });
+            
+        });
+        let map;
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 2,
+                center: new google.maps.LatLng(2.8, -187.3),
+                mapTypeId: 'terrain'
+            });
+        }
+    </script>
     </body> 
         
             
