@@ -60,12 +60,17 @@ $(document).ready(
             $('#feedSelector').append("<div class='feed-date'>" + prop + "</div>" + makeChildProps(quakeFeeds, prop));
             // console.log(makeChildProps(quakeFeeds, prop));
         }
+
+
         /* end construction of buttons */
 
         /* respond to a button press of any button of 'feed-name' class */
         $('.feed-name').click(function (e) {
+
             // We fetch the earthquake feed associated with the actual button that has been pressed.
             // In this example we are not plotting on a map, just demonstrating how to get the data.
+            $(".btn-selected").removeClass("btn-selected");
+
             $(this).addClass("btn-selected");
             map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 2,
@@ -129,9 +134,6 @@ $(document).ready(
                     });
                 }
             });
-        });
-        $(".feed-name").click(function () {
-
         });
     }
 );

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f906f3a4-f62d-4604-b785-e5a66b76b422" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/earthquake.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/earthquake.js" afterDir="false" />
     </list>
@@ -17,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="848">
-              <caret line="1279" column="26" selection-start-line="1279" selection-start-column="26" selection-end-line="1279" selection-end-column="26" />
+            <state relative-caret-position="474">
+              <caret line="1279" column="32" selection-start-line="1279" selection-start-column="32" selection-end-line="1279" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/earthquake.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+            <state relative-caret-position="345">
+              <caret line="71" column="59" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -56,8 +55,8 @@
         <option value="$PROJECT_DIR$/geojson.html" />
         <option value="$PROJECT_DIR$/weather.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/earthquake.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/earthquake.js" />
       </list>
     </option>
   </component>
@@ -107,8 +106,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/additional.html" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/additional.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../inspireInnovation/scripts/services.js" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../inspireInnovation/scripts/services.js" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -163,13 +162,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33494000" />
+    <option name="totallyTimeSpent" value="34841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="764" width="1366" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17498139" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17498139" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -272,17 +271,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/earthquake.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+        <state relative-caret-position="474">
+          <caret line="1279" column="32" selection-start-line="1279" selection-start-column="32" selection-end-line="1279" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/earthquake.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="1279" column="26" selection-start-line="1279" selection-start-column="26" selection-end-line="1279" selection-end-column="26" />
+        <state relative-caret-position="345">
+          <caret line="71" column="59" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
         </state>
       </provider>
     </entry>
