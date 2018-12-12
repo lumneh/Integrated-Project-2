@@ -1252,3 +1252,7 @@ div div div ul li.geoLi:hover{
 #cta-section{
 	top:22vh;
 }
+
+.nav-active{
+    color: white !important;
+}
