@@ -1173,6 +1173,7 @@ div div div ul li.geoLi{
 }
 div div div ul li.geoLi:hover{
     background-color: #555;
+    transition-duration: 0.4s;
 }
 
 div div div div div button{
@@ -1186,6 +1187,7 @@ div div div div div button{
 }
 div div div div div button:hover{
     background-color: #555;
+    transition-duration: 0.4s;
 }
 .btn-block2{
     width: 120%; 
