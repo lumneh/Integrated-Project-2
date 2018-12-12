@@ -1172,15 +1172,23 @@ div div div ul li.geoLi{
     color: #fff;
 }
 div div div ul li.geoLi:hover{
-    background-color: #555;
+    background-color: #666;
 }
 
 div div div div div button{
     margin-top: 10px;
+    height: 60px;
+    width: 110%;
     text-align: center;
     background-color: #555; /*#B77600;*/
     color: #fff;
     border: none;
+}
+div div div div div button:hover{
+    background-color: #666;
+}
+.btn-block2{
+    width: 120%; 
 }
 .tutorials-a{
     color: #fff;
