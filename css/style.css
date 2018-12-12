@@ -1238,9 +1238,10 @@ div div div div div button:hover{
 	color: #fff;
 	cursor: pointer;
 	transition: all linear 0.2s;
-	border: none;
+	border: solid 1px white;
 	outline: none;
 	font-size: 1em;
+	height: auto;
 }
 
 .feed-name:hover {
@@ -1273,4 +1274,8 @@ div div div div div button:hover{
 
 .nav-active{
     color: white !important;
+}
+
+.btn-selected{
+	background-color: navy;
 }

@@ -66,6 +66,7 @@ $(document).ready(
         $('.feed-name').click(function (e) {
             // We fetch the earthquake feed associated with the actual button that has been pressed.
             // In this example we are not plotting on a map, just demonstrating how to get the data.
+            $(this).addClass("btn-selected");
             map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 2,
                 center: new google.maps.LatLng(2.8, -187.3),
@@ -128,6 +129,9 @@ $(document).ready(
                     });
                 }
             });
+        });
+        $(".feed-name").click(function () {
+
         });
     }
 );
