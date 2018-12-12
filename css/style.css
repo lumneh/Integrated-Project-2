@@ -1168,11 +1168,11 @@ div div div ul li.geoLi{
     padding-top: 20px;
     text-align: center;
     height: 50px;
-    background-color: #555; /*#B77600;*/
+    background-color: #444; /*#B77600;*/
     color: #fff;
 }
 div div div ul li.geoLi:hover{
-    background-color: #666;
+    background-color: #555;
 }
 
 div div div div div button{
@@ -1185,7 +1185,7 @@ div div div div div button{
     border: none;
 }
 div div div div div button:hover{
-    background-color: #666;
+    background-color: #444;
 }
 .btn-block2{
     width: 120%; 
