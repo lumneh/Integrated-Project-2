@@ -267,6 +267,10 @@ section {
 .navbar-transparent .navbar-brand, .navbar-transparent .navbar-brand:focus {
 	color: #FFF;
 }
+
+ .active{
+	color: #FFF;
+}
 /* ===== End navbar ===== */
 
 
@@ -1242,7 +1246,7 @@ div div div div div button{
 	height: 100%;
 }
 
-#earthquake-content{
+#earthquake-content, #additional-content, .page-content{
 	position: relative;
 	top:68px;
 }
@@ -1250,4 +1254,13 @@ div div div div div button{
 #map{
 	height: 70vh;
 	margin-left:1%;
+}
+
+
+#cta-section{
+	top:22vh;
+}
+
+.nav-active{
+    color: white !important;
 }
