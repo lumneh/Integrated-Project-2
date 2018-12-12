@@ -1180,12 +1180,12 @@ div div div div div button{
     height: 60px;
     width: 110%;
     text-align: center;
-    background-color: #555; /*#B77600;*/
+    background-color: #444; /*#B77600;*/
     color: #fff;
     border: none;
 }
 div div div div div button:hover{
-    background-color: #444;
+    background-color: #555;
 }
 .btn-block2{
     width: 120%; 
