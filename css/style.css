@@ -1168,11 +1168,29 @@ div div div ul li.geoLi{
     padding-top: 20px;
     text-align: center;
     height: 50px;
-    background-color: #555; /*#B77600;*/
+    background-color: #444; /*#B77600;*/
     color: #fff;
 }
 div div div ul li.geoLi:hover{
     background-color: #555;
+    transition-duration: 0.4s;
+}
+
+div div div div div button{
+    margin-top: 10px;
+    height: 60px;
+    width: 110%;
+    text-align: center;
+    background-color: #444; /*#B77600;*/
+    color: #fff;
+    border: none;
+}
+div div div div div button:hover{
+    background-color: #555;
+    transition-duration: 0.4s;
+}
+.btn-block2{
+    width: 120%; 
 }
 .tutorials-a{
     color: #fff;
@@ -1251,4 +1269,8 @@ div div div ul li.geoLi:hover{
 
 #cta-section{
 	top:22vh;
+}
+
+.nav-active{
+    color: white !important;
 }
